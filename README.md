@@ -137,8 +137,8 @@ Legend:
 | `AWS_REGION`      | us-east-1 | AWS region |
 | `TEAMS_WEBHOOK`   | (required) | Teams Incoming Webhook URL |
 | `ENABLE_MAIL_REPORT` | true | Enable/disable SES email reporting |
-| `MAIL_FROM`       | xx-reply@calibo.com | Verified SES sender |
-| `MAIL_TO`         | xxxx@calibo.com | Comma/semicolon-separated recipients |
+| `MAIL_FROM`       | xx-reply@.com | Verified SES sender |
+| `MAIL_TO`         | xxxx@x.com | Comma/semicolon-separated recipients |
 | `MAIL_CC` / `MAIL_BCC` | *(empty)* | Optional CC/BCC |
 | `MAIL_SUBJECT`    | Database Utilization Report | Email subject line |
 | `CPU_WARN`        | 80 | CPU utilization warning threshold (%) |
